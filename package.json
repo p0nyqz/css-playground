@@ -1,0 +1,23 @@
+{
+  "name": "css-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/tailwind.css -o public/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p0nyqz/css-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/p0nyqz/css-playground/issues"
+  },
+  "homepage": "https://github.com/p0nyqz/css-playground#readme",
+  "dependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
