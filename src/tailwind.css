@@ -3,6 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --primary: #1eccac;
+    --leadFont: 1.2rem;
+}
+
 .card {
     @apply bg-white rounded overflow-hidden shadow-md relative;
 }
