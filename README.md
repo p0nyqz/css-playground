@@ -1,7 +1,9 @@
 # css-playground
 
 Run project
-`npm run build-css`
+`npm run build`
+`npm run watch`
+
 
 Tailwind watcher
 `npx tailwindcss -i ./src/tailwind.css -o ./public/tailwind.css --watch`
