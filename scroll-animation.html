@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Scroll Animation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+        <script defer src="scroll-animation.js"></script>
+    </head>
+    <style>
+        body {
+            background-color: #131316;
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+
+        section {
+            display: grid;
+            place-items: center;
+            align-content: center;
+            min-height: 150vh;    
+        }
+        
+        .hidden {
+            opacity: 0;
+            filter: blur(5px);
+            transform: translateX(-100%);
+            transition: all 3s;
+        }
+
+        .show {
+            opacity: 1;
+            filter: blur(0);
+            transform: translateX(0);
+        }
+
+    </style>
+    
+    <body>
+      <section class="hidden">
+        <h1>Hi mom</h1>
+        <p>This is my website</p>
+      </section>
+
+      <section class="hidden">
+        <h2>Buy my product</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Vitae cum inventore illum assumenda libero alias sed architecto doloribus neque quaerat!</p>
+      </section>
+
+      <section class="hidden">
+        <h2>It's really good!</h2>
+      </section>
+    </body>
+</html>
